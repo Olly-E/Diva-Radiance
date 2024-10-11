@@ -100,9 +100,10 @@ export default function Home() {
               Shop your favorite brands
             </h3>
             <p className="text-[20px] w-[616px]">
-              We offer a curated selection of trendy smoking accessories you'll
-              love. We have also made it easy for you to shop your favorite
-              brands in our store. <strong>Shop Vamp "by brand"</strong>
+              We offer a curated selection of trendy smoking accessories
+              you&apos;ll love. We have also made it easy for you to shop your
+              favorite brands in our store.{" "}
+              <strong>Shop Vamp &quot;by brand&quot;</strong>
             </p>
           </div>
           <div className="mt-10 grid grid-cols-5 items-center gap-6">
@@ -122,7 +123,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
     </div>
   );
 }
