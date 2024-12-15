@@ -2,8 +2,7 @@
 
 import React from "react";
 
-import { INFINITY_CARD_DATA, INFINITY_CARD_DATA2 } from "../utils/constant";
-import ItemCardMini from "./ItemCardMini";
+// import ItemCardMini from "./ItemCardMini";
 
 export const Infinite = () => {
   return (
@@ -11,24 +10,24 @@ export const Infinite = () => {
       <div className=" z-[100] w-full" />
       <div className="flex items-center gap-16">
         <div className="flex ribbon items-center gap-16">
-          {INFINITY_CARD_DATA.map((card) => (
+          {/* {INFINITY_CARD_DATA.map((card) => (
             <ItemCardMini
               id={card.id}
               key={card.id}
               name={card.name}
               image={card.image}
             />
-          ))}
+          ))} */}
         </div>
         <div className="flex ribbon items-center gap-16">
-          {INFINITY_CARD_DATA.map((card) => (
+          {/* {INFINITY_CARD_DATA.map((card) => (
             <ItemCardMini
               id={card.id}
               key={card.id}
               name={card.name}
               image={card.image}
             />
-          ))}
+          ))} */}
         </div>
       </div>
       <style jsx global>{`
@@ -57,24 +56,24 @@ export const Infinite2 = () => {
       <div className=" z-[100] w-full" />
       <div className="flex items-center gap-16">
         <div className="flex reverse-ribbon items-center gap-16">
-          {INFINITY_CARD_DATA2.map((card) => (
+          {/* {INFINITY_CARD_DATA2.map((card) => (
             <ItemCardMini
               id={card.id}
               key={card.id}
               name={card.name}
               image={card.image}
             />
-          ))}
+          ))} */}
         </div>
         <div className="flex reverse-ribbon items-center gap-16">
-          {INFINITY_CARD_DATA2.map((card) => (
+          {/* {INFINITY_CARD_DATA2.map((card) => (
             <ItemCardMini
               id={card.id}
               key={card.id}
               name={card.name}
               image={card.image}
             />
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

@@ -1,9 +1,7 @@
-import Image from "next/image";
 import React from "react";
 
 import { Infinite, Infinite2 } from "../components/Infinite";
 import { Button } from "../components/elements/Button";
-import { FAVORITE_BRANDS } from "../utils/constant";
 import CardCarousels from "../components/Carousel";
 
 export default function Home() {
@@ -105,21 +103,6 @@ export default function Home() {
               favorite brands in our store.{" "}
               <strong>Shop Vamp &quot;by brand&quot;</strong>
             </p>
-          </div>
-          <div className="mt-10 grid grid-cols-5 items-center gap-6">
-            {FAVORITE_BRANDS.map((brand) => (
-              <div
-                key={brand.id}
-                className="bg-black w-full border border-gray-2 rounded-[20px] justify-center flex items-center h-[168px] group hover:bg-white transition-all"
-              >
-                <Image
-                  src={brand.img}
-                  alt="reboot-monkey-logo"
-                  style={{ maxWidth: "199px", height: "auto" }}
-                  className="group-hover:invert transition-all"
-                />
-              </div>
-            ))}
           </div>
         </div>
       </section>
